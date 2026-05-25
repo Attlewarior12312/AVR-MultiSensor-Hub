@@ -43,3 +43,4 @@ Poniżej znajduje się domyślne mapowanie wyprowadzeń mikrokontrolera zdefinio
 * **Kompilator:** `avr-gcc`
 * **Zależności:** Standardowe biblioteki środowiska AVR (`<avr/io.h>`, `<util/delay.h>`, `<avr/interrupt.h>`, `<math.h>`)
 * **Taktowanie (F_CPU):** Kod jest zoptymalizowany dla zegara `16000000UL` (16 MHz). W przypadku zmiany kwarcu, należy zaktualizować definicję w pliku `main.c` i ew. dostosować preskalery timerów.
+<img width="1024" height="600" alt="obraz" src="https://github.com/user-attachments/assets/2f11c65a-ac33-4655-bc43-2ca2f25e6653" />

@@ -9,7 +9,7 @@ Dane są prezentowane w czasie rzeczywistym na wyświetlaczu znakowym LCD (HD447
 * **Cyfrowy Termometr:** Konwersja wartości ADC z termistora NTC na stopnie Celsjusza. Przeliczanie rezystancji na temperaturę z wykorzystaniem parametru Beta oraz zaimplementowanym (opcjonalnym) algorytmem Steinharta-Harta.
 * **Solar Tracker:** Porównywanie natężenia światła z dwóch fotorezystorów (LDR) i automatyczna regulacja kąta serwomechanizmu poprzez sygnał sprzętowy Fast PWM (Timer1) w celu "podążania" za światłem.
 * **Stoper z obsługą przycisku:** Oparty na przerwaniach sprzętowych Timer0 zliczający czas (ms, s, min, h). Zawiera zintegrowany mechanizm programowego eliminowania drgań styków (*debouncing*) oraz inteligentnego rozróżniania kliknięć (Start/Pauza) i przytrzymania (Reset timer'a po 1000ms).
-* **Wyświetlacz LCD:** Własna, lekka biblioteka do obsługi wyświetlaczy zgodnych ze sterownikiem HD44780 w trybie 4-bitowym z możliwością precyzyjnego pozycjonowania tekstu i wyświetlania zmiennych (funkcje z rodziny `printf`).
+* **Wyświetlacz LCD:** Lekka biblioteka do obsługi wyświetlaczy zgodnych ze sterownikiem HD44780 w trybie 4-bitowym z możliwością precyzyjnego pozycjonowania tekstu i wyświetlania zmiennych (funkcje z rodziny `printf`).
 * **Komunikacja UART:** Asynchroniczne wysyłanie sformatowanych danych diagnostycznych (odczyty przetwornika ADC) z prędkością 9600 baud.
 
 ## Wymagania Sprzętowe i Pinout
